@@ -2,8 +2,12 @@
 public class BankAccountTester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		BankAccount myBankAccount = new BankAccount();
+		myBankAccount.deposit(1000);
+		myBankAccount.withdraw(500);
+		myBankAccount.deposit(1500);
+		System.out.println(myBankAccount.getBalance());
+		
 	}
 
 }
