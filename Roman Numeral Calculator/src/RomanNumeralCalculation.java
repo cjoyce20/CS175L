@@ -176,10 +176,5 @@ public class RomanNumeralCalculation {
 		
 		}
 
-		System.out.print(digit);
-		System.out.print(digit2);
-		System.out.print(digit3);
-		System.out.print(digit4);
-
 	}
 }
