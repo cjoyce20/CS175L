@@ -1,6 +1,11 @@
 import java.util.Scanner;
 public class RomanNumeralCalculation {
 	
+	static int digit;
+	static int digit2;
+	static int digit3;
+	static int digit4;
+	
 	/*	I = 1
 		V = 5
 		X = 10
@@ -45,39 +50,39 @@ public class RomanNumeralCalculation {
 		{
 			int digit2 = (integer/100)%10;
 			
-			if (digit2 == 1);
+			if (digit2 == 1)
 			{
 				System.out.print("C");
 			}
-			if (digit2 == 2);
+			if (digit2 == 2)
 			{
 				System.out.print("CC");
 			}
-			if (digit2 == 3);
+			if (digit2 == 3)
 			{
 				System.out.print("CCC");
 			}
-			if (digit2 == 4);
+			if (digit2 == 4)
 			{
 				System.out.print("CD");
 			}
-			if (digit2 == 5);
+			if (digit2 == 5)
 			{
 				System.out.print("D");
 			}
-			if (digit2 == 6);
+			if (digit2 == 6)
 			{
 				System.out.print("DC");
 			}
-			if (digit2 == 7);
+			if (digit2 == 7)
 			{
 				System.out.print("DCC");
 			}
-			if (digit2 == 8);
+			if (digit2 == 8)
 			{
 				System.out.print("DCCC");
 			}
-			if (digit2 == 9);
+			if (digit2 == 9)
 			{
 				System.out.print("CM");
 			}
@@ -127,7 +132,7 @@ public class RomanNumeralCalculation {
 		}
 		
 		//Get ones digit from integer
-		if (integer >= 1);
+		if (integer >= 1)
 		{
 			int digit4 = integer%10;
 			
@@ -168,8 +173,13 @@ public class RomanNumeralCalculation {
 				System.out.print("IX");
 			}
 		}
-
+		
 		}
+
+		System.out.print(digit);
+		System.out.print(digit2);
+		System.out.print(digit3);
+		System.out.print(digit4);
 
 	}
 }
