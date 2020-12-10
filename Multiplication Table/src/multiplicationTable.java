@@ -7,7 +7,7 @@ public class multiplicationTable {
 		
 		for (int a = 1; a <= 10; a++) {
 			
-			val += 1;
+				val += 1;
 			
 			for (int b = 1; b <= 10; b++) {
 				int product = val*b;
@@ -18,13 +18,12 @@ public class multiplicationTable {
 					{
 					System.out.print(" ");
 					}
-				
 				System.out.print(product + " ");
-			}
+				}
 			
 			System.out.println("");
+			}
 		}
-	}
 	
 		public static void main(String[] args) {
 		
